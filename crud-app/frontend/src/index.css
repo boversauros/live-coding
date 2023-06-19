@@ -1,0 +1,24 @@
+body {
+  font-family: "system-ui";
+}
+
+header {
+  width: 950px;
+  margin: 0 auto;
+}
+
+main {
+  width: 950px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  boder-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
