@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+}
