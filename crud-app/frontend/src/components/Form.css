@@ -1,0 +1,23 @@
+.users-form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1.5rem;
+  gap: 5px;
+}
+
+.users-form input {
+  flex-grow: 3;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.users-form button {
+  background-color: #5493d8;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
