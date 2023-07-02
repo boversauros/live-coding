@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 240px;
+}
+
+.calculator input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-color: #ddd;
+}
+
+.calculator-keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2px;
+}
+
+.calculator-keyboard button {
+  padding: 8px;
+  border: none;
+}
