@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  margin: none;
+}
+
+.characterList {
+  margin: none;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.characterList li {
+  list-style: none;
+}
+
+.characterList li:hover {
+  cursor: pointer;
+  border: 1px solid #666;
+}
+
+.characterList li img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.character-header {
+  margin-bottom: 4rem;
+}
+
+.character-header h1 {
+  margin-bottom: 0;
+}
+
+.character-header a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.character-header a:hover {
+  border-bottom: 4px solid black;
+}
+
+.character-main ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.character-main li {
+  list-style: none;
+}
