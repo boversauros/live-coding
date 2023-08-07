@@ -1,0 +1,14 @@
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+  
+.todo-title {
+  flex: 1;
+}
+  
+.todo-delete {
+  cursor: pointer;
+  color: red;
+}

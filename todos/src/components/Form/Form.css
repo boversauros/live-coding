@@ -1,0 +1,21 @@
+.todos-form {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.todos-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+
+    font-size: 1rem;
+}
+
+.todos-form button {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+}
